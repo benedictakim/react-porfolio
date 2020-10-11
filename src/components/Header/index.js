@@ -6,7 +6,7 @@ import "./style.css";
 function Header (){
   return (
      <div className="header">
-        <nav className = "nav">
+        <nav className = "nav-wrapper">
           <div className="container">
             <a href="#" data-target="slide-out" class="sidenav-trigger show-on-large"><i class="material-icons">menu</i></a>
              <ul id="nav-mobile" class="right hide-on-med-and-down">

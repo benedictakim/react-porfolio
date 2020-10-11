@@ -1,6 +1,4 @@
-import 'materialize-css';
-import { Button, Card, Row, Col } from 'react-materialize';
-import "./style.css";
+import React from "react";
 
 function About () {
     return (
@@ -27,20 +25,3 @@ function About () {
 }
 
 export default About
-
-{/* <li class="svg-html5">HTML5</li>
-<li class="svg-css3">CSS3</li>
-<li class="svg-js">JavaScript</li>
-<li class="svg-sass">SASS</li>
-<li class="svg-node">Node.js</li>
-li class="svg-express">Express.js</li>
-<li class="svg-react">React</li>
-<li class="svg-redux">Redux</li>
-<li class="svg-d3">D3.js</li><li class="svg-mongo">MongoDB</li>
-<li class="svg-psql">PostgreSQL</li>
-<li class="svg-sqlize">Sequelize.js</li>
-<li class="svg-gatsby">Gatsby.js</li>
-<li class="svg-jquery">jQuery</li>
-<li class="svg-wbpk">Webpack</li>
-<li class="svg-mocha">Mocha</li>
-<li class="svg-git">Git</li> */}
