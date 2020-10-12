@@ -4,14 +4,16 @@ import 'materialize-css/dist/css/materialize.min.css';
 import { Button, Card, Row, Col } from 'react-materialize';
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import Contact from "./pages/Contact";
+import Projects from "./components/Projects";
+// import Contact from "./pages/Contact";
 // import About from "./pages/About";
 
 function App() {
   return (
     <div>
       <Header />
-      <Contact/>
+      {/* <Contact/> */}
+      <Projects />
       <Footer />
     </div>
   );
