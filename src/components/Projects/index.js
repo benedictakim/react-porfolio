@@ -79,7 +79,7 @@ function Projects () {
       <div className="row">
         <div className="col s12 m6">
           <div className="card large">
-            <div className="card-title card-panel blue-grey darken-4">Workday Planner</div>
+            <div className="card-title card-panel blue-grey darken-4">Bored Jar</div>
             <div className="card-image">
               <img src="./images/bored-jar.gif" alt="Bored Jar"/>            
             </div>
@@ -91,7 +91,7 @@ function Projects () {
         </div>
         <div className="col s12 m6">
           <div className="card large">
-            <div className="card-title card-panel blue-grey darken-4">Birthday Card Generator</div>
+            <div className="card-title card-panel blue-grey darken-4">Ask Cleo</div>
             <div className="card-image">
               <img src="./images/askcleo.gif" alt="Ask Cleo"/>
             </div>
