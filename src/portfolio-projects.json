@@ -1,0 +1,44 @@
+[
+	{
+		"Id": "1",
+		"Title": "Password Generator",
+		"Image": "./images/password-generator.jpg",
+		"Deployed": "https://benedictakim.github.io/passwordgenerator/",
+		"GithubRepo": "https://github.com/benedictakim/passwordgenerator/"
+	},
+	{
+		"Id": "2",
+		"Title": "Weather Dashboard",
+		"Image": "./images/weather-API.jpg",
+		"Deployed": "https://benedictakim.github.io/weatherdashboard/",
+		"GithubRepo": "https://github.com/benedictakim/weatherdashboard"
+	},
+	{
+		"Id": "3",
+		"Title": "Workday Planner",
+		"Image": "./images/workday-planner.gif",
+		"Deployed": "https://benedictakim.github.io/workdayplanner/",
+		"GithubRepo": "https://github.com/benedictakim/workdayplanner/"
+	},
+	{
+		"Id": "4",
+		"Title": "Birthday Card Generator",
+		"Image": "./images/b-card-example-image.jpg",
+		"Deployed": "https://benedictakim.github.io/workdayplanner/",
+		"GithubRepo": "https://benedictakim.github.io/workdayplanner/"
+	},
+	{
+		"Id": "5",
+		"Title": "Bored Jar",
+		"Image": "./images/bored-jar.gif",
+		"Deployed": "http://boredjar.siminski.co/",
+		"GithubRepo": "https://github.com/benedictakim/bored-jar"
+	},
+	{
+		"Id": "6",
+		"Title": "Ask Cleo",
+		"Image": "./images/askcleo.gif",
+		"Deployed": "https://benedictakim.github.io/AskCleo/",
+		"GithubRepo": "https://github.com/benedictakim/AskCleo"
+	}
+]

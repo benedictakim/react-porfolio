@@ -1,6 +1,27 @@
 import React from "react";
 
-function Project () {
+// function PortfolioprojectCard(props) {
+//   render () {
+//     return (
+//       <div className="card large">       
+//         <div className="card-title card-panel blue-grey darken-4">{props.title}</div>
+//           <div className="card-image">
+//             <img src={props.image} alt={props.title}/>                        
+//           </div>
+//           <div className="card-action z-depth-5 blue-grey lighten-4">
+//             <a className= "black-text" href={props.link} target="_blank"><i className="tiny material-icons">pageview</i>Open Application</a> 
+//             <a className= "black-text" href={props.githublink} target="_blank"><i className="tiny material-icons">code</i>Review Code</a>
+//           </div>
+//      </div>
+//     )
+//   }
+// }
+
+// export default PortfolioprojectCard
+
+
+function Projects () {
+
     return (
     <div className = "container">
         <div className="row">
@@ -85,4 +106,4 @@ function Project () {
   );
 }
 
-export default Project
+export default Projects
