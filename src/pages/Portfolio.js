@@ -1,26 +1,28 @@
 import React, { Component } from "react";
-import portfolioprojects from "./portfolio-projects.json";
+import portfolioprojects from "../portfolio-projects.json";
 import PortfolioprojectCard from "./components/projects"
 
 class Portfolio extends Component {
-    state = {
-      portfolioprojects
-    };
-
-    render() {
-        return (
-            <div className = "container">
-            <Portfolioprojectcard
-            {this.state.portfolioprojects.map(portfolioprojects => (
-                title={portfolioprojects.Title},
-                image={portfolioprojects.Image},
-                link={portfolioprojects.Deployed},
-                githublink={portfolioprojects.GithubRepo}
-            ))}
-            />
-            </div>
-        );
+    const portfolioprojects
+    function grabaproject (props) {
+        let portfolioprojects = []
+        for (let i = 0; i < props.length; i++) {
+            portfolioprojects.push(props.children(i));
+        }
+        return 
+        <div class="container">
+            <PortfolioprojectCard>
+            {portfolioprojects}
+            </PortfolioprojectCard>
+        </div>
     }
-}
+    grabaproject ()
+    // function listallprojects () {
+    //     return (
+    //         <grabaproject numTimes={6}>
+    //             {(index) => <div key={index}</div>}
+    //         </grabaproject>
+    //     );
+    // }
 
 export default Portfolio
